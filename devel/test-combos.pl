@@ -50,4 +50,4 @@ OK when testing without:
 * Mouse,MouseX::Types
 * MouseX::Types
 * Mouse
-* 
+*

@@ -1,3 +1,6 @@
-.*
-!.gitignore
-Any-Moose-*
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Any-Moose-*/
+/Any-Moose-*.tar.gz

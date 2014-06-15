@@ -1,3 +1,5 @@
+  * fix missing =encoding directive in pod
+
 0.21 2013-03-02
   * Add tokuhirom's translation of the deprecation notice
 

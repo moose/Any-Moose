@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.22      2014-06-19 02:30:13Z
   - fix missing =encoding directive in pod
   - canonical repository moved to https://github.com/moose/Any-Moose
 

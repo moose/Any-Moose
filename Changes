@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - fix missing =encoding directive in pod
+  - canonical repository moved to https://github.com/moose/Any-Moose
 
 0.21 2013-03-02
   - Add tokuhirom's translation of the deprecation notice

@@ -25,6 +25,9 @@ do {
             warn "\$ANY_MOOSE is set to Mouse but we cannot load it";
         }
     }
+    elsif ( $INC{'Moo.pm'} && eval { require Moose } ) {
+        $PREFERRED = 'Moose';
+    }
     elsif (_is_moose_loaded()) {
         $PREFERRED = 'Moose';
     }

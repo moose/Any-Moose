@@ -4,7 +4,7 @@ Any::Moose - \*deprecated\* - use Moo instead!
 
 # VERSION
 
-version 0.23
+version 0.24
 
 # DEPRECATION
 

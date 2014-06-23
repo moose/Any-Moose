@@ -3,7 +3,7 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
 
 0.23      2014-06-23 13:04:35Z
-  - now always prefers Moose if Moose is loaded, to overcome some
+  - now always prefers Moose if Moo is loaded, to overcome some
     incompatibility issues in subclasses (github #1, Graham Knop)
 
 0.22      2014-06-19 02:30:13Z

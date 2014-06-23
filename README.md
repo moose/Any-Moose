@@ -4,7 +4,7 @@ Any::Moose - \*deprecated\* - use Moo instead!
 
 # VERSION
 
-version 0.22
+version 0.23
 
 # DEPRECATION
 
@@ -30,7 +30,7 @@ For the sparse documentation Any::Moose used to include, see
 
 # AUTHORS
 
-- Shawn M Moore <sartak@gmail.com>
+- Shawn M Moore <code@sartak.org>
 - Florian Ragwitz <rafl@debian.org>
 - Stevan Little <stevan@iinteractive.com>
 - Tokuhiro Matsuno <tokuhirom@gmail.com>
@@ -47,9 +47,8 @@ the same terms as the Perl 5 programming language system itself.
 # CONTRIBUTORS
 
 - Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+- Graham Knop <haarg@haarg.org>
 - Karen Etheridge <ether@cpan.org>
-- Shawn M Moore <code@sartak.org>
-- Shawn M Moore <sartak@bestpractical.com>
-- Stevan Little <stevan@localhost.(none)>
+- Stevan Little <stevan.little@iinteractive.com>
 - gfx <gfuji@cpan.org>
 - tokuhirom <tokuhirom@gmail.com>

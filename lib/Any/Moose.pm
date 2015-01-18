@@ -1,6 +1,6 @@
 package Any::Moose;
-# ABSTRACT: *deprecated* - use Moo instead!
-# KEYWORDS: Moose Mouse abstraction layer object-oriented
+# ABSTRACT: (DEPRECATED) use Moo instead!
+# KEYWORDS: deprecated Moose Mouse abstraction layer object-oriented
 
 use 5.006_002;
 use strict;

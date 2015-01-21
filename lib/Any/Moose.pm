@@ -31,7 +31,7 @@ do {
     elsif (_is_moose_loaded()) {
         $PREFERRED = 'Moose';
     }
-    elsif (eval { require Mouse }) {
+    elsif (eval { require Mouse; Mouse->VERSION('0.3701'); 1 }) {
         $PREFERRED = 'Mouse';
     }
     elsif (eval { require Moose }) {
@@ -100,7 +100,9 @@ sub unimport {
 sub _backer_of {
     my $pkg = shift;
 
-    if(exists $INC{'Mouse.pm'}){
+    if(exists $INC{'Mouse.pm'}
+        and Mouse::Util->can('get_metaclass_by_name')
+      ){
         my $meta = Mouse::Util::get_metaclass_by_name($pkg);
         if ($meta) {
             return 'Mouse::Role' if $meta->isa('Mouse::Meta::Role');

@@ -31,7 +31,7 @@ do {
     elsif (_is_moose_loaded()) {
         $PREFERRED = 'Moose';
     }
-    elsif (eval { require Mouse; Mouse->VERSION('0.3701'); 1 }) {
+    elsif (eval { require Mouse; require Mouse::Util; Mouse::Util->can('get_metaclass_by_name') }) {
         $PREFERRED = 'Mouse';
     }
     elsif (eval { require Moose }) {

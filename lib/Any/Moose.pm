@@ -1,6 +1,7 @@
 package Any::Moose;
 # ABSTRACT: (DEPRECATED) use Moo instead!
 # KEYWORDS: deprecated Moose Mouse abstraction layer object-oriented
+# vim: set ts=8 sts=4 sw=4 tw=78 et :
 
 use 5.006_002;
 use strict;

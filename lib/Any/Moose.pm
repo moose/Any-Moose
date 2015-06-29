@@ -7,6 +7,8 @@ use 5.006_002;
 use strict;
 use warnings;
 
+our $VERSION = '0.27';
+
 # decide which backend to use
 our $PREFERRED;
 do {

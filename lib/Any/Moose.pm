@@ -206,8 +206,7 @@ sub mouse_is_preferred { $PREFERRED eq 'Mouse' }
 sub _is_moose_loaded { exists $INC{'Moose.pm'} }
 
 sub is_moose_loaded {
-    require Carp;
-    Carp::carp("Any::Moose::is_moose_loaded is deprecated. Please use Any::Moose::moose_is_preferred instead");
+    warnings::warnif('deprecated', "Any::Moose::is_moose_loaded is deprecated. Please use Any::Moose::moose_is_preferred instead");
     goto \&_is_moose_loaded;
 }
 

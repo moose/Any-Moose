@@ -9,6 +9,8 @@ use warnings;
 
 our $VERSION = '0.27';
 
+warnings::warnif('deprecated', 'Any::Moose is deprecated. Please use Moo instead');
+
 # decide which backend to use
 our $PREFERRED;
 do {

@@ -4,6 +4,7 @@ use Test::More 0.88;
 
 do {
     package Point;
+    no warnings 'deprecated';
     use Any::Moose;
 
     has ['x', 'y'] => (

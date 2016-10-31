@@ -4,6 +4,8 @@ use Test::More;
 
 BEGIN { delete $ENV{ANY_MOOSE} }
 
+no warnings 'deprecated';
+
 BEGIN {
     eval 'use Moose ()';
     plan skip_all => "Moose unavailable: $@" if $@;

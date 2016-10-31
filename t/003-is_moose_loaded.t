@@ -7,12 +7,13 @@ BEGIN { delete $ENV{ANY_MOOSE} }
 BEGIN {
     eval 'use Mouse ()';
     plan skip_all => "Mouse unavailable: $@" if $@;
-    plan tests => 3;
+    plan tests => 2;
 }
 
 package Test;
+no warnings 'deprecated';
+use Any::Moose;
 BEGIN {
-    ::use_ok('Any::Moose');
     ::ok(!Any::Moose::_is_moose_loaded(), '... Moose is not loaded');
 }
 

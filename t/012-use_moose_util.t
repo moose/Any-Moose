@@ -12,6 +12,7 @@ BEGIN {
 
 {
     package My::Package;
+    no warnings 'deprecated';
     use Any::Moose '::Util::TypeConstraints' => [qw(type)];
 
     ::ok defined(&type);

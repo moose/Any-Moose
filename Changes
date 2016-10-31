@@ -1,6 +1,7 @@
 Revision history for Any-Moose
 
 {{$NEXT}}
+  - add deprecation warning when this module is used
 
 0.26      2015-01-24 07:52:46Z
   - change Mouse $VERSION check to avoid dying on bad 'v2.4.0' version

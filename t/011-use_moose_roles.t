@@ -12,6 +12,7 @@ BEGIN {
 
 {
     package My::Role;
+    no warnings 'deprecated';
     use Any::Moose '::Role';
 }
 

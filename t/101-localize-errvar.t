@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use Test::More tests => 3;
+no warnings 'deprecated';
 use Any::Moose();
 
 $@ = 'Foo';

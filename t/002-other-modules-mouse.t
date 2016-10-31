@@ -4,6 +4,8 @@ use Test::More;
 
 BEGIN { delete $ENV{ANY_MOOSE} }
 
+no warnings 'deprecated';
+
 BEGIN {
     eval 'use Mouse ()';
     plan skip_all => "Mouse unavailable: $@" if $@;

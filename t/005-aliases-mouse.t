@@ -11,6 +11,7 @@ BEGIN {
 }
 
 package MyClass;
+no warnings 'deprecated';
 use Any::Moose;
 
 package main;

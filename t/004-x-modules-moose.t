@@ -13,6 +13,8 @@ BEGIN {
     plan tests => 2;
 }
 
+no warnings 'deprecated';
+
 do {
     package Moosed::Any::Moose;
     use Any::Moose;

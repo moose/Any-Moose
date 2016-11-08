@@ -7,7 +7,7 @@ use 5.006_002;
 use strict;
 use warnings;
 
-our $VERSION = '0.27';
+our $VERSION = '0.28';
 
 warnings::warnif('deprecated', 'Any::Moose is deprecated. Please use Moo instead');
 

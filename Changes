@@ -1,5 +1,7 @@
 Revision history for Any-Moose
 
+{{$NEXT}}
+
 0.27      2016-11-08 03:37:04Z
   - add deprecation warning when this module is used
 
